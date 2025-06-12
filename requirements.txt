@@ -1,0 +1,10 @@
+torch
+torchvision
+diffusers[torch]
+transformers
+accelerate
+Pillow
+numpy
+opencv-python
+fastapi
+uvicorn

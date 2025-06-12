@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: interior-inpaint-api
+    env: python
+    runtime: 3.10
+    region: frankfurt  # أو اختر أي region مناسب ليك
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    plan: free
+    envVars:
+      - key: TRANSFORMERS_CACHE
+        value: /mnt/cache/huggingface
+    disk:
+      name: model-cache
+      mountPath: /mnt/cache
+      sizeGB: 10
+
