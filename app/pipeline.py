@@ -11,7 +11,9 @@ from transformers import Mask2FormerImageProcessor, Mask2FormerForUniversalSegme
 
 from segmentation_colors import ade_palette, map_colors_rgb
 
-# ========== Load Models ==========
+
+
+############## Load Models ###############
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # ControlNet models
@@ -39,8 +41,12 @@ mask_model = Mask2FormerForUniversalSegmentation.from_pretrained("facebook/mask2
 depth_processor = AutoImageProcessor.from_pretrained("LiheYoung/depth-anything-large-hf")
 depth_model = AutoModelForDepthEstimation.from_pretrained("LiheYoung/depth-anything-large-hf").to(device)
 
-# ========== Helper Functions ==========
 
+
+
+
+
+############## Our Functions ##############
 def resize_image(image: Image.Image, size=(512, 512)) -> Image.Image:
     return image.resize(size)
 
@@ -97,7 +103,11 @@ def get_depth_image(image: Image.Image) -> Image.Image:
     np_depth = depth_img.permute(0, 2, 3, 1).cpu().numpy()[0]
     return Image.fromarray((np_depth * 255).astype(np.uint8))
 
-# ========== Main Function ==========
+
+
+
+
+############## Main Function ###############
 
 def process_image(image: Image.Image, prompt: str) -> Image.Image:
     image = resize_image(image)
