@@ -15,22 +15,22 @@ from segmentation_colors import ade_palette, map_colors_rgb
 
 ############## Load Models ###############
 device = "cuda" if torch.cuda.is_available() else "cpu"
-
+dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 # ControlNet models
 controlnet_seg = ControlNetModel.from_pretrained(
     "BertChristiaens/controlnet-seg-room",
-    torch_dtype=torch.float16,
+    torch_dtype=dtype,
 ).to(device)
 
 controlnet_depth = ControlNetModel.from_pretrained(
     "lllyasviel/control_v11f1p_sd15_depth",
-    torch_dtype=torch.float16,
+    torch_dtype=dtype,
 ).to(device)
 
 # Inpainting model
 inpaint_model = StableDiffusionInpaintPipeline.from_pretrained(
     "runwayml/stable-diffusion-inpainting",
-    torch_dtype=torch.float16,
+    torch_dtype=dtype,
 ).to(device)
 
 # Mask2Former for segmentation
