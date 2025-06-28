@@ -9,7 +9,7 @@ from diffusers import StableDiffusionInpaintPipeline, ControlNetModel
 from transformers import AutoImageProcessor, AutoModelForDepthEstimation
 from transformers import Mask2FormerImageProcessor, Mask2FormerForUniversalSegmentation
 
-from segmentation_colors import ade_palette, map_colors_rgb
+from app.segmentation_colors import ade_palette, map_colors_rgb
 
 
 
@@ -20,6 +20,7 @@ dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 controlnet_seg = ControlNetModel.from_pretrained(
     "BertChristiaens/controlnet-seg-room",
     torch_dtype=dtype,
+    use_safetensors=False
 ).to(device)
 
 controlnet_depth = ControlNetModel.from_pretrained(
@@ -31,6 +32,7 @@ controlnet_depth = ControlNetModel.from_pretrained(
 inpaint_model = StableDiffusionInpaintPipeline.from_pretrained(
     "runwayml/stable-diffusion-inpainting",
     torch_dtype=dtype,
+    use_safetensors=False
 ).to(device)
 
 # Mask2Former for segmentation
