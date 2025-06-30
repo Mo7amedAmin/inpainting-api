@@ -1,6 +1,6 @@
 # Use a CUDA base image for GPU support
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
-# FROM python:3.10-slim
+# FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+FROM python:3.10-slim
 
 # Install Python and system dependencies
 RUN apt-get update && apt-get install -y \

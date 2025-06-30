@@ -8,3 +8,5 @@ numpy
 opencv-python
 fastapi
 uvicorn
+scipy
+python-multipart
