@@ -24,5 +24,8 @@ ENV PYTHONUNBUFFERED=1 \
     TRANSFORMERS_CACHE=/app/cache \
     HF_HOME=/app/cache
 
+
+EXPOSE 8080
+
 # Run the FastAPI app
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]

@@ -30,9 +30,8 @@ controlnet_depth = ControlNetModel.from_pretrained(
 
 # Inpainting model
 inpaint_model = StableDiffusionInpaintPipeline.from_pretrained(
-    "runwayml/stable-diffusion-inpainting",
+    "stabilityai/stable-diffusion-2-inpainting",
     torch_dtype=dtype,
-    use_safetensors=False
 ).to(device)
 
 # Mask2Former for segmentation
@@ -127,7 +126,7 @@ def process_image(image: Image.Image, prompt: str) -> Image.Image:
         controlnet=control_nets,
         controlnet_conditioning_image=control_images,
         num_inference_steps=50,
-        strength=0.6,
+        strength=0.7,
         generator=torch.manual_seed(42),
     ).images[0]
 

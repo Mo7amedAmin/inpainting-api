@@ -1,0 +1,702 @@
+[
+    {
+        "full_room": "room_images/image_0000.jpg",
+        "empty_room": "clean_rooms/image_0000_clean.png",
+        "depth": "depth_maps/image_0000_depth.png",
+        "mask": "segmentation_maps/image_0000_segmentation.png",
+        "caption": "Living room with white marble floors, a white table, and brown leather chairs."
+    },
+    {
+        "full_room": "room_images/image_0001.jpg",
+        "empty_room": "clean_rooms/image_0001_clean.png",
+        "depth": "depth_maps/image_0001_depth.png",
+        "mask": "segmentation_maps/image_0001_segmentation.png",
+        "caption": "A small, neatly organized living room with a hardwood floor, a grey and white color scheme, and wooden furniture."
+    },
+    {
+        "full_room": "room_images/image_0002.jpg",
+        "empty_room": "clean_rooms/image_0002_clean.png",
+        "depth": "depth_maps/image_0002_depth.png",
+        "mask": "segmentation_maps/image_0002_segmentation.png",
+        "caption": "A modern apartment with white walls and a wood floor."
+    },
+    {
+        "full_room": "room_images/image_0003.jpg",
+        "empty_room": "clean_rooms/image_0003_clean.png",
+        "depth": "depth_maps/image_0003_depth.png",
+        "mask": "segmentation_maps/image_0003_segmentation.png",
+        "caption": "A modern living room with a black leather chair and a glass table."
+    },
+    {
+        "full_room": "room_images/image_0004.jpg",
+        "empty_room": "clean_rooms/image_0004_clean.png",
+        "depth": "depth_maps/image_0004_depth.png",
+        "mask": "segmentation_maps/image_0004_segmentation.png",
+        "caption": "A bathroom with a white bathtub, a sink, a mirror, and a pink wall. The pink wall is a feature of the bathroom, adding a touch of color to the space. The bathroom is well-lit, with a light on the wall, and the sink is placed under the mirror. The overall style of the bathroom is modern and clean, with a focus on functionality and aesthetics."
+    },
+    {
+        "full_room": "room_images/image_0005.jpg",
+        "empty_room": "clean_rooms/image_0005_clean.png",
+        "depth": "depth_maps/image_0005_depth.png",
+        "mask": "segmentation_maps/image_0005_segmentation.png",
+        "caption": "The image showcases a large, well-lit kitchen with a modern design. The countertops are made of marble, which adds a touch of luxury to the space. The cabinets are made of wood and have a sleek, minimalist style. The room is painted a warm, neutral color, which creates a welcoming atmosphere. The kitchen is equipped with a refrigerator, a sink, and a microwave, and various utensils such as kn"
+    },
+    {
+        "full_room": "room_images/image_0006.jpg",
+        "empty_room": "clean_rooms/image_0006_clean.png",
+        "depth": "depth_maps/image_0006_depth.png",
+        "mask": "segmentation_maps/image_0006_segmentation.png",
+        "caption": "The living room is decorated in a modern style with a grey color scheme."
+    },
+    {
+        "full_room": "room_images/image_0007.jpg",
+        "empty_room": "clean_rooms/image_0007_clean.png",
+        "depth": "depth_maps/image_0007_depth.png",
+        "mask": "segmentation_maps/image_0007_segmentation.png",
+        "caption": "The image depicts the interior of a modern, black and white living room."
+    },
+    {
+        "full_room": "room_images/image_0008.jpg",
+        "empty_room": "clean_rooms/image_0008_clean.png",
+        "depth": "depth_maps/image_0008_depth.png",
+        "mask": "segmentation_maps/image_0008_segmentation.png",
+        "caption": "The interior of a modern living room features a grey couch, two chairs, and a coffee table. The room has a contemporary style with a grey couch and chairs, and a black coffee table. The walls are decorated in neutral tones, and there is a potted plant placed in the room. The furniture is arranged around the room, creating a comfortable and inviting atmosphere."
+    },
+    {
+        "full_room": "room_images/image_0009.jpg",
+        "empty_room": "clean_rooms/image_0009_clean.png",
+        "depth": "depth_maps/image_0009_depth.png",
+        "mask": "segmentation_maps/image_0009_segmentation.png",
+        "caption": "A modern kitchen with white countertops and gray cabinets, featuring a white refrigerator, a microwave, and a sink."
+    },
+    {
+        "full_room": "room_images/image_0010.jpg",
+        "empty_room": "clean_rooms/image_0010_clean.png",
+        "depth": "depth_maps/image_0010_depth.png",
+        "mask": "segmentation_maps/image_0010_segmentation.png",
+        "caption": "A bathroom with a modern style, grey walls, and black tiles. The bathroom has a walk-in shower with a glass door, a toilet, a sink, and a potted plant."
+    },
+    {
+        "full_room": "room_images/image_0011.jpg",
+        "empty_room": "clean_rooms/image_0011_clean.png",
+        "depth": "depth_maps/image_0011_depth.png",
+        "mask": "segmentation_maps/image_0011_segmentation.png",
+        "caption": "The interior of a large office space with a wood floor and white desks."
+    },
+    {
+        "full_room": "room_images/image_0012.jpg",
+        "empty_room": "clean_rooms/image_0012_clean.png",
+        "depth": "depth_maps/image_0012_depth.png",
+        "mask": "segmentation_maps/image_0012_segmentation.png",
+        "caption": "The living room is decorated in a modern style with a focus on comfort and functionality. The room features a large window and a spiral staircase that adds a unique touch to the space. The furniture is made of wood and leather, creating a warm and inviting atmosphere. The room is well-lit, with a combination of natural and artificial light sources."
+    },
+    {
+        "full_room": "room_images/image_0013.jpg",
+        "empty_room": "clean_rooms/image_0013_clean.png",
+        "depth": "depth_maps/image_0013_depth.png",
+        "mask": "segmentation_maps/image_0013_segmentation.png",
+        "caption": "A bright and clean living room with white and black color scheme."
+    },
+    {
+        "full_room": "room_images/image_0014.jpg",
+        "empty_room": "clean_rooms/image_0014_clean.png",
+        "depth": "depth_maps/image_0014_depth.png",
+        "mask": "segmentation_maps/image_0014_segmentation.png",
+        "caption": "The living room is furnished with a couch, a chair, and a table. The couch has a white fabric, while the chair has a gray fabric. The table is made of wood and has a glass top. The room is decorated with three lights hanging from the ceiling, and there is a mirror on the wall."
+    },
+    {
+        "full_room": "room_images/image_0015.jpg",
+        "empty_room": "clean_rooms/image_0015_clean.png",
+        "depth": "depth_maps/image_0015_depth.png",
+        "mask": "segmentation_maps/image_0015_segmentation.png",
+        "caption": "The room is a child's bedroom with a white dresser and a blue wall. The dresser has a wooden top and is adorned with three drawers. The room also features a television on the wall and a bed with a white headboard."
+    },
+    {
+        "full_room": "room_images/image_0016.jpg",
+        "empty_room": "clean_rooms/image_0016_clean.png",
+        "depth": "depth_maps/image_0016_depth.png",
+        "mask": "segmentation_maps/image_0016_segmentation.png",
+        "caption": "A small bathroom with a white toilet and a sink."
+    },
+    {
+        "full_room": "room_images/image_0017.jpg",
+        "empty_room": "clean_rooms/image_0017_clean.png",
+        "depth": "depth_maps/image_0017_depth.png",
+        "mask": "segmentation_maps/image_0017_segmentation.png",
+        "caption": "This is a modern living room with a black couch and a flat screen TV."
+    },
+    {
+        "full_room": "room_images/image_0018.jpg",
+        "empty_room": "clean_rooms/image_0018_clean.png",
+        "depth": "depth_maps/image_0018_depth.png",
+        "mask": "segmentation_maps/image_0018_segmentation.png",
+        "caption": "A large living room with a white couch and a coffee table. The room has a modern style with a light color palette. The couch is covered in a white fabric and is accompanied by pillows in various colors. The coffee table is situated in front of the couch, and there are books and a magazine placed on it."
+    },
+    {
+        "full_room": "room_images/image_0019.jpg",
+        "empty_room": "clean_rooms/image_0019_clean.png",
+        "depth": "depth_maps/image_0019_depth.png",
+        "mask": "segmentation_maps/image_0019_segmentation.png",
+        "caption": "A kitchen with white cabinets and white countertops. The cabinets are made of wood and have a shiny finish."
+    },
+    {
+        "full_room": "room_images/image_0020.jpg",
+        "empty_room": "clean_rooms/image_0020_clean.png",
+        "depth": "depth_maps/image_0020_depth.png",
+        "mask": "segmentation_maps/image_0020_segmentation.png",
+        "caption": "A modern, well-lit living room with a grey couch, a glass table, and a large window."
+    },
+    {
+        "full_room": "room_images/image_0021.jpg",
+        "empty_room": "clean_rooms/image_0021_clean.png",
+        "depth": "depth_maps/image_0021_depth.png",
+        "mask": "segmentation_maps/image_0021_segmentation.png",
+        "caption": "A modern, sleek living room with a large flat screen TV mounted on the wall."
+    },
+    {
+        "full_room": "room_images/image_0022.jpg",
+        "empty_room": "clean_rooms/image_0022_clean.png",
+        "depth": "depth_maps/image_0022_depth.png",
+        "mask": "segmentation_maps/image_0022_segmentation.png",
+        "caption": "The interior of the room is characterized by a modern and minimalist style, featuring a black and white color scheme. The room is predominantly white, with black accents on the walls and furniture. The room contains a large flat screen television mounted on the wall, a couch, and a dining table. The furniture is made of white fabric, giving the room a clean and sophisticated look."
+    },
+    {
+        "full_room": "room_images/image_0023.jpg",
+        "empty_room": "clean_rooms/image_0023_clean.png",
+        "depth": "depth_maps/image_0023_depth.png",
+        "mask": "segmentation_maps/image_0023_segmentation.png",
+        "caption": "The interior of a bathroom is shown, featuring a white color scheme with wooden floors. The room is small and narrow, but it has a functional and minimalistic design. The bathroom contains a sink, a mirror, and a cabinet, all of which are white in color. The wooden floor adds a touch of warmth to the space."
+    },
+    {
+        "full_room": "room_images/image_0024.jpg",
+        "empty_room": "clean_rooms/image_0024_clean.png",
+        "depth": "depth_maps/image_0024_depth.png",
+        "mask": "segmentation_maps/image_0024_segmentation.png",
+        "caption": "The living room has a modern style with a gray color scheme. The furniture is made of leather, giving the space a luxurious feel."
+    },
+    {
+        "full_room": "room_images/image_0025.jpg",
+        "empty_room": "clean_rooms/image_0025_clean.png",
+        "depth": "depth_maps/image_0025_depth.png",
+        "mask": "segmentation_maps/image_0025_segmentation.png",
+        "caption": "A large room with a contemporary style, featuring a black and silver television mounted on the wall. The room also has a black leather couch, a black chair, and a black ottoman. The walls are painted white, and the room has a modern feel with a large glass window."
+    },
+    {
+        "full_room": "room_images/image_0026.jpg",
+        "empty_room": "clean_rooms/image_0026_clean.png",
+        "depth": "depth_maps/image_0026_depth.png",
+        "mask": "segmentation_maps/image_0026_segmentation.png",
+        "caption": "A kitchen with white walls, grey floor, and black countertops. The kitchen has wood cabinets and a stove top oven."
+    },
+    {
+        "full_room": "room_images/image_0027.jpg",
+        "empty_room": "clean_rooms/image_0027_clean.png",
+        "depth": "depth_maps/image_0027_depth.png",
+        "mask": "segmentation_maps/image_0027_segmentation.png",
+        "caption": "The kitchen has a white and light wood theme with a stainless steel sink."
+    },
+    {
+        "full_room": "room_images/image_0028.jpg",
+        "empty_room": "clean_rooms/image_0028_clean.png",
+        "depth": "depth_maps/image_0028_depth.png",
+        "mask": "segmentation_maps/image_0028_segmentation.png",
+        "caption": "The living room is spacious and well-lit, featuring a large window that allows sunlight to fill the room. The room has a modern style, with a neutral color palette and a mix of natural and artificial lighting. The furniture is made of high-quality materials, including a comfortable couch and a bench, both of which are covered in a soft, plush fabric."
+    },
+    {
+        "full_room": "room_images/image_0029.jpg",
+        "empty_room": "clean_rooms/image_0029_clean.png",
+        "depth": "depth_maps/image_0029_depth.png",
+        "mask": "segmentation_maps/image_0029_segmentation.png",
+        "caption": "The image depicts a white kitchen with wooden cabinets and white countertops. The kitchen features a wall-mounted oven and a sink. The countertops are adorned with a variety of items, including a potted plant, a vase, a bowl, and several knives. The potted plant is situated on the countertop and is accompanied by a vase and a bowl. The knives are arranged in a knife block, which is"
+    },
+    {
+        "full_room": "room_images/image_0030.jpg",
+        "empty_room": "clean_rooms/image_0030_clean.png",
+        "depth": "depth_maps/image_0030_depth.png",
+        "mask": "segmentation_maps/image_0030_segmentation.png",
+        "caption": "A white and gray kitchen with a black and white countertop."
+    },
+    {
+        "full_room": "room_images/image_0031.jpg",
+        "empty_room": "clean_rooms/image_0031_clean.png",
+        "depth": "depth_maps/image_0031_depth.png",
+        "mask": "segmentation_maps/image_0031_segmentation.png",
+        "caption": "The image shows a modern bathroom with a black and white color scheme. The bathroom features a white toilet and a black and white shower curtain. The walls are painted black and white, and the floor is made of wood. The room also contains a sink and a mirror."
+    },
+    {
+        "full_room": "room_images/image_0032.jpg",
+        "empty_room": "clean_rooms/image_0032_clean.png",
+        "depth": "depth_maps/image_0032_depth.png",
+        "mask": "segmentation_maps/image_0032_segmentation.png",
+        "caption": "A well-lit kitchen with wood flooring and light-colored walls."
+    },
+    {
+        "full_room": "room_images/image_0033.jpg",
+        "empty_room": "clean_rooms/image_0033_clean.png",
+        "depth": "depth_maps/image_0033_depth.png",
+        "mask": "segmentation_maps/image_0033_segmentation.png",
+        "caption": "A large, clean, and modern living room with white walls and a wooden floor."
+    },
+    {
+        "full_room": "room_images/image_0034.jpg",
+        "empty_room": "clean_rooms/image_0034_clean.png",
+        "depth": "depth_maps/image_0034_depth.png",
+        "mask": "segmentation_maps/image_0034_segmentation.png",
+        "caption": "The interior image showcases a modern, well-lit kitchen with white cabinets and reflective surfaces."
+    },
+    {
+        "full_room": "room_images/image_0035.jpg",
+        "empty_room": "clean_rooms/image_0035_clean.png",
+        "depth": "depth_maps/image_0035_depth.png",
+        "mask": "segmentation_maps/image_0035_segmentation.png",
+        "caption": "A modern style living room with a beige couch and a glass table."
+    },
+    {
+        "full_room": "room_images/image_0036.jpg",
+        "empty_room": "clean_rooms/image_0036_clean.png",
+        "depth": "depth_maps/image_0036_depth.png",
+        "mask": "segmentation_maps/image_0036_segmentation.png",
+        "caption": "A modern kitchen with a white color scheme and gray cabinets."
+    },
+    {
+        "full_room": "room_images/image_0037.jpg",
+        "empty_room": "clean_rooms/image_0037_clean.png",
+        "depth": "depth_maps/image_0037_depth.png",
+        "mask": "segmentation_maps/image_0037_segmentation.png",
+        "caption": "A large bedroom with a white bed and a wooden floor. The room has a modern style with a clean and minimalist design. The bed is covered with a white comforter and has a black pillow, and a brown blanket. The room also has a large window with blinds, and a vase with a plant on the floor."
+    },
+    {
+        "full_room": "room_images/image_0038.jpg",
+        "empty_room": "clean_rooms/image_0038_clean.png",
+        "depth": "depth_maps/image_0038_depth.png",
+        "mask": "segmentation_maps/image_0038_segmentation.png",
+        "caption": "A small, modern kitchen with a black and white color scheme."
+    },
+    {
+        "full_room": "room_images/image_0039.jpg",
+        "empty_room": "clean_rooms/image_0039_clean.png",
+        "depth": "depth_maps/image_0039_depth.png",
+        "mask": "segmentation_maps/image_0039_segmentation.png",
+        "caption": "A cozy bedroom with a wooden table and chair, a window, a black and white striped shade, a large book, and a cup."
+    },
+    {
+        "full_room": "room_images/image_0040.jpg",
+        "empty_room": "clean_rooms/image_0040_clean.png",
+        "depth": "depth_maps/image_0040_depth.png",
+        "mask": "segmentation_maps/image_0040_segmentation.png",
+        "caption": "A large, modern kitchen with white cabinets and a light wood theme."
+    },
+    {
+        "full_room": "room_images/image_0041.jpg",
+        "empty_room": "clean_rooms/image_0041_clean.png",
+        "depth": "depth_maps/image_0041_depth.png",
+        "mask": "segmentation_maps/image_0041_segmentation.png",
+        "caption": "The interior image features a bright and airy room with a yellow desk and a chair that is brown leather. The desk is made of wood and has a white tile countertop. The room is well-lit and has a modern style."
+    },
+    {
+        "full_room": "room_images/image_0042.jpg",
+        "empty_room": "clean_rooms/image_0042_clean.png",
+        "depth": "depth_maps/image_0042_depth.png",
+        "mask": "segmentation_maps/image_0042_segmentation.png",
+        "caption": "A kitchen with wooden cabinets and a white counter top."
+    },
+    {
+        "full_room": "room_images/image_0043.jpg",
+        "empty_room": "clean_rooms/image_0043_clean.png",
+        "depth": "depth_maps/image_0043_depth.png",
+        "mask": "segmentation_maps/image_0043_segmentation.png",
+        "caption": "The interior of a room is painted white, with a pink accent wall. The room features a bookshelf with a metal shelf and a pink bookcase. The bookshelf is filled with books, and a candle is placed on the shelf. The room also contains a pink wall, a pink bookcase, and a pink bookshelf."
+    },
+    {
+        "full_room": "room_images/image_0044.jpg",
+        "empty_room": "clean_rooms/image_0044_clean.png",
+        "depth": "depth_maps/image_0044_depth.png",
+        "mask": "segmentation_maps/image_0044_segmentation.png",
+        "caption": "A white bedroom with a white bedspread and white pillows."
+    },
+    {
+        "full_room": "room_images/image_0045.jpg",
+        "empty_room": "clean_rooms/image_0045_clean.png",
+        "depth": "depth_maps/image_0045_depth.png",
+        "mask": "segmentation_maps/image_0045_segmentation.png",
+        "caption": "The interior of the room is predominantly white, featuring a white wall and white floor. The room appears to be a modern living space, with a large window that allows ample natural light to enter the room. The window is adorned with a brown shade, which adds a touch of warmth to the otherwise minimalist setting. The room is furnished with a large white couch, a chair, and a potted plant, all of which contribute to the overall aest"
+    },
+    {
+        "full_room": "room_images/image_0046.jpg",
+        "empty_room": "clean_rooms/image_0046_clean.png",
+        "depth": "depth_maps/image_0046_depth.png",
+        "mask": "segmentation_maps/image_0046_segmentation.png",
+        "caption": "A well-organized bedroom with a white bedspread and a gray throw blanket."
+    },
+    {
+        "full_room": "room_images/image_0047.jpg",
+        "empty_room": "clean_rooms/image_0047_clean.png",
+        "depth": "depth_maps/image_0047_depth.png",
+        "mask": "segmentation_maps/image_0047_segmentation.png",
+        "caption": "The living room is decorated in a modern style with a large window that lets in a lot of natural light. The furniture is made of white fabric and is arranged around a coffee table. The room also features a couch, a chair, and a lamp."
+    },
+    {
+        "full_room": "room_images/image_0048.jpg",
+        "empty_room": "clean_rooms/image_0048_clean.png",
+        "depth": "depth_maps/image_0048_depth.png",
+        "mask": "segmentation_maps/image_0048_segmentation.png",
+        "caption": "A large, modern living room with white walls and wooden floors. The room features a large bookcase with a vase on top of it, a couch, a chair, and a dining table. The furniture is made of wood and has a sleek, minimalist style."
+    },
+    {
+        "full_room": "room_images/image_0049.jpg",
+        "empty_room": "clean_rooms/image_0049_clean.png",
+        "depth": "depth_maps/image_0049_depth.png",
+        "mask": "segmentation_maps/image_0049_segmentation.png",
+        "caption": "The bathroom is a modern, all-white space with a sleek design."
+    },
+    {
+        "full_room": "room_images/image_0050.jpg",
+        "empty_room": "clean_rooms/image_0050_clean.png",
+        "depth": "depth_maps/image_0050_depth.png",
+        "mask": "segmentation_maps/image_0050_segmentation.png",
+        "caption": "A large bed in a hotel room, with a white comforter and a grey throw blanket."
+    },
+    {
+        "full_room": "room_images/image_0051.jpg",
+        "empty_room": "clean_rooms/image_0051_clean.png",
+        "depth": "depth_maps/image_0051_depth.png",
+        "mask": "segmentation_maps/image_0051_segmentation.png",
+        "caption": "A spacious and well-lit living room with a modern style and neutral color palette."
+    },
+    {
+        "full_room": "room_images/image_0052.jpg",
+        "empty_room": "clean_rooms/image_0052_clean.png",
+        "depth": "depth_maps/image_0052_depth.png",
+        "mask": "segmentation_maps/image_0052_segmentation.png",
+        "caption": "A spacious white kitchen with wooden cabinets, a large white table, and a cat sitting on the floor."
+    },
+    {
+        "full_room": "room_images/image_0053.jpg",
+        "empty_room": "clean_rooms/image_0053_clean.png",
+        "depth": "depth_maps/image_0053_depth.png",
+        "mask": "segmentation_maps/image_0053_segmentation.png",
+        "caption": "The room is a small, dimly lit space with a white color scheme. The walls are painted in a neutral tone, and the lighting is soft and diffused. The room features a white couch that is positioned against the wall and a white chair that is placed nearby. The couch and chair are both made of a fabric that complements the overall color palette of the room."
+    },
+    {
+        "full_room": "room_images/image_0054.jpg",
+        "empty_room": "clean_rooms/image_0054_clean.png",
+        "depth": "depth_maps/image_0054_depth.png",
+        "mask": "segmentation_maps/image_0054_segmentation.png",
+        "caption": "A modern, minimalist living room with a white theme."
+    },
+    {
+        "full_room": "room_images/image_0055.jpg",
+        "empty_room": "clean_rooms/image_0055_clean.png",
+        "depth": "depth_maps/image_0055_depth.png",
+        "mask": "segmentation_maps/image_0055_segmentation.png",
+        "caption": "The living room is designed in a modern style, featuring a hardwood floor and white furniture."
+    },
+    {
+        "full_room": "room_images/image_0056.jpg",
+        "empty_room": "clean_rooms/image_0056_clean.png",
+        "depth": "depth_maps/image_0056_depth.png",
+        "mask": "segmentation_maps/image_0056_segmentation.png",
+        "caption": "A clean and organized room with a wooden floor and a large window. The room features a television set on the left side, a wooden bookshelf with a shelf above it, and a bed in the right corner. The bookshelf is filled with books and is made of wood."
+    },
+    {
+        "full_room": "room_images/image_0057.jpg",
+        "empty_room": "clean_rooms/image_0057_clean.png",
+        "depth": "depth_maps/image_0057_depth.png",
+        "mask": "segmentation_maps/image_0057_segmentation.png",
+        "caption": "A modern living room with a clean, minimalist style."
+    },
+    {
+        "full_room": "room_images/image_0058.jpg",
+        "empty_room": "clean_rooms/image_0058_clean.png",
+        "depth": "depth_maps/image_0058_depth.png",
+        "mask": "segmentation_maps/image_0058_segmentation.png",
+        "caption": "A modern living room with a large brown couch, a chair, and a rug. The walls are painted white, and the room has a black and white color scheme."
+    },
+    {
+        "full_room": "room_images/image_0059.jpg",
+        "empty_room": "clean_rooms/image_0059_clean.png",
+        "depth": "depth_maps/image_0059_depth.png",
+        "mask": "segmentation_maps/image_0059_segmentation.png",
+        "caption": "A man is sitting in a bedroom, surrounded by white furniture and a white bed. The room has a wooden cabinet and a white bed with a white blanket."
+    },
+    {
+        "full_room": "room_images/image_0060.jpg",
+        "empty_room": "clean_rooms/image_0060_clean.png",
+        "depth": "depth_maps/image_0060_depth.png",
+        "mask": "segmentation_maps/image_0060_segmentation.png",
+        "caption": "The image depicts a well-lit, modern-looking bedroom with a gray color scheme. The bed features a gray comforter and pillows, and is placed against a gray wall. The room also contains a nightstand with a lamp on it."
+    },
+    {
+        "full_room": "room_images/image_0061.jpg",
+        "empty_room": "clean_rooms/image_0061_clean.png",
+        "depth": "depth_maps/image_0061_depth.png",
+        "mask": "segmentation_maps/image_0061_segmentation.png",
+        "caption": "A modern, clean, and bright living room with white tile floors and white walls."
+    },
+    {
+        "full_room": "room_images/image_0062.jpg",
+        "empty_room": "clean_rooms/image_0062_clean.png",
+        "depth": "depth_maps/image_0062_depth.png",
+        "mask": "segmentation_maps/image_0062_segmentation.png",
+        "caption": "The image depicts a modern living room with white walls, a gray couch, and a white table. The room features a minimalist style with a predominantly white color scheme."
+    },
+    {
+        "full_room": "room_images/image_0063.jpg",
+        "empty_room": "clean_rooms/image_0063_clean.png",
+        "depth": "depth_maps/image_0063_depth.png",
+        "mask": "segmentation_maps/image_0063_segmentation.png",
+        "caption": "The room is a cozy bedroom with a neatly made bed."
+    },
+    {
+        "full_room": "room_images/image_0064.jpg",
+        "empty_room": "clean_rooms/image_0064_clean.png",
+        "depth": "depth_maps/image_0064_depth.png",
+        "mask": "segmentation_maps/image_0064_segmentation.png",
+        "caption": "A well-lit bedroom with a white bed and a gray and black checkered blanket."
+    },
+    {
+        "full_room": "room_images/image_0065.jpg",
+        "empty_room": "clean_rooms/image_0065_clean.png",
+        "depth": "depth_maps/image_0065_depth.png",
+        "mask": "segmentation_maps/image_0065_segmentation.png",
+        "caption": "A modern, wood-paneled living room with a beige couch and a black and white throw pillow on it."
+    },
+    {
+        "full_room": "room_images/image_0066.jpg",
+        "empty_room": "clean_rooms/image_0066_clean.png",
+        "depth": "depth_maps/image_0066_depth.png",
+        "mask": "segmentation_maps/image_0066_segmentation.png",
+        "caption": "A bathroom with a white sink and mirror."
+    },
+    {
+        "full_room": "room_images/image_0067.jpg",
+        "empty_room": "clean_rooms/image_0067_clean.png",
+        "depth": "depth_maps/image_0067_depth.png",
+        "mask": "segmentation_maps/image_0067_segmentation.png",
+        "caption": "A large, modern, and minimalist living room with white walls, a black flat screen television, and a wooden floor."
+    },
+    {
+        "full_room": "room_images/image_0068.jpg",
+        "empty_room": "clean_rooms/image_0068_clean.png",
+        "depth": "depth_maps/image_0068_depth.png",
+        "mask": "segmentation_maps/image_0068_segmentation.png",
+        "caption": "The interior of the house is a cozy living room with a modern style. The room features a comfortable sofa with a brown fabric, a coffee table, and a chair. The walls are painted white, and the room is illuminated by several lights, creating a warm and inviting atmosphere."
+    },
+    {
+        "full_room": "room_images/image_0069.jpg",
+        "empty_room": "clean_rooms/image_0069_clean.png",
+        "depth": "depth_maps/image_0069_depth.png",
+        "mask": "segmentation_maps/image_0069_segmentation.png",
+        "caption": "A modern kitchen with grey countertops, white walls, and a dark wood floor. A man is standing in the kitchen with a white shirt."
+    },
+    {
+        "full_room": "room_images/image_0070.jpg",
+        "empty_room": "clean_rooms/image_0070_clean.png",
+        "depth": "depth_maps/image_0070_depth.png",
+        "mask": "segmentation_maps/image_0070_segmentation.png",
+        "caption": "A living room with a beige color scheme and wooden floors. The room features a large flat screen TV mounted on the wall, a couch, a chair, and a rug. The furniture is covered in leather."
+    },
+    {
+        "full_room": "room_images/image_0071.jpg",
+        "empty_room": "clean_rooms/image_0071_clean.png",
+        "depth": "depth_maps/image_0071_depth.png",
+        "mask": "segmentation_maps/image_0071_segmentation.png",
+        "caption": "A large white room with a white ceiling and walls."
+    },
+    {
+        "full_room": "room_images/image_0072.jpg",
+        "empty_room": "clean_rooms/image_0072_clean.png",
+        "depth": "depth_maps/image_0072_depth.png",
+        "mask": "segmentation_maps/image_0072_segmentation.png",
+        "caption": "A large, modern kitchen with a wooden island and a blue countertop."
+    },
+    {
+        "full_room": "room_images/image_0073.jpg",
+        "empty_room": "clean_rooms/image_0073_clean.png",
+        "depth": "depth_maps/image_0073_depth.png",
+        "mask": "segmentation_maps/image_0073_segmentation.png",
+        "caption": "The image depicts a spacious, modern-looking room with white walls, a wooden floor, and a mirrored ceiling. The room features a wooden dining table, a wooden chair, and a couch. The dining table is surrounded by chairs, and the couch is positioned in the corner of the room. The room has a clean and minimalist style, with a neutral color palette and wooden furniture."
+    },
+    {
+        "full_room": "room_images/image_0074.jpg",
+        "empty_room": "clean_rooms/image_0074_clean.png",
+        "depth": "depth_maps/image_0074_depth.png",
+        "mask": "segmentation_maps/image_0074_segmentation.png",
+        "caption": "A spacious and modern living room with hardwood floors, white walls, and a black and white color scheme. The room features a large couch, a dining table, and a television."
+    },
+    {
+        "full_room": "room_images/image_0075.jpg",
+        "empty_room": "clean_rooms/image_0075_clean.png",
+        "depth": "depth_maps/image_0075_depth.png",
+        "mask": "segmentation_maps/image_0075_segmentation.png",
+        "caption": "A small bedroom with a white bed with a beige comforter and white sheets. The room has a modern style with a black and white color scheme."
+    },
+    {
+        "full_room": "room_images/image_0076.jpg",
+        "empty_room": "clean_rooms/image_0076_clean.png",
+        "depth": "depth_maps/image_0076_depth.png",
+        "mask": "segmentation_maps/image_0076_segmentation.png",
+        "caption": "A large, modern, and clean living room with a white color scheme and wood flooring."
+    },
+    {
+        "full_room": "room_images/image_0077.jpg",
+        "empty_room": "clean_rooms/image_0077_clean.png",
+        "depth": "depth_maps/image_0077_depth.png",
+        "mask": "segmentation_maps/image_0077_segmentation.png",
+        "caption": "A well-lit, modern room with a wooden floor and a white shelf."
+    },
+    {
+        "full_room": "room_images/image_0078.jpg",
+        "empty_room": "clean_rooms/image_0078_clean.png",
+        "depth": "depth_maps/image_0078_depth.png",
+        "mask": "segmentation_maps/image_0078_segmentation.png",
+        "caption": "A modern kitchen with white walls and a wooden floor."
+    },
+    {
+        "full_room": "room_images/image_0079.jpg",
+        "empty_room": "clean_rooms/image_0079_clean.png",
+        "depth": "depth_maps/image_0079_depth.png",
+        "mask": "segmentation_maps/image_0079_segmentation.png",
+        "caption": "The living room is spacious and features a large flat screen TV mounted on the wall. The room has a modern style with grey walls and white furniture. The couch is made of grey velvet and is accompanied by a wooden coffee table."
+    },
+    {
+        "full_room": "room_images/image_0080.jpg",
+        "empty_room": "clean_rooms/image_0080_clean.png",
+        "depth": "depth_maps/image_0080_depth.png",
+        "mask": "segmentation_maps/image_0080_segmentation.png",
+        "caption": "A modern living room with a grey couch and a wooden coffee table."
+    },
+    {
+        "full_room": "room_images/image_0081.jpg",
+        "empty_room": "clean_rooms/image_0081_clean.png",
+        "depth": "depth_maps/image_0081_depth.png",
+        "mask": "segmentation_maps/image_0081_segmentation.png",
+        "caption": "The interior of the room is predominantly white with wood grain accents. The room is a kitchen with a sink, stove, and microwave. The stove top oven is black and sits under the countertop. The sink is located near the center of the room, with the stove top oven to the right of the sink. The microwave is located above the stove top oven. The room has a modern style with a clean and minimal"
+    },
+    {
+        "full_room": "room_images/image_0082.jpg",
+        "empty_room": "clean_rooms/image_0082_clean.png",
+        "depth": "depth_maps/image_0082_depth.png",
+        "mask": "segmentation_maps/image_0082_segmentation.png",
+        "caption": "The living room has a cozy and inviting atmosphere. The furniture is arranged in a way that encourages conversation and relaxation. The couches are covered with floral print fabric, which adds a touch of warmth and personality to the space. The room is decorated with various pieces of furniture, including a coffee table, a bookshelf, and a potted plant. The lighting in the room is dim, creating a more intimate and comfortable environment."
+    },
+    {
+        "full_room": "room_images/image_0083.jpg",
+        "empty_room": "clean_rooms/image_0083_clean.png",
+        "depth": "depth_maps/image_0083_depth.png",
+        "mask": "segmentation_maps/image_0083_segmentation.png",
+        "caption": "The room is a modern living room with a hardwood floor."
+    },
+    {
+        "full_room": "room_images/image_0084.jpg",
+        "empty_room": "clean_rooms/image_0084_clean.png",
+        "depth": "depth_maps/image_0084_depth.png",
+        "mask": "segmentation_maps/image_0084_segmentation.png",
+        "caption": "The interior of the room is a modern style with a gray cabinet and a brown wooden counter. There is a large potted plant on the counter, and a vase with a plant in it is also present in the room."
+    },
+    {
+        "full_room": "room_images/image_0085.jpg",
+        "empty_room": "clean_rooms/image_0085_clean.png",
+        "depth": "depth_maps/image_0085_depth.png",
+        "mask": "segmentation_maps/image_0085_segmentation.png",
+        "caption": "The room is a small, brightly colored kitchen with a blue wall and wooden floors."
+    },
+    {
+        "full_room": "room_images/image_0086.jpg",
+        "empty_room": "clean_rooms/image_0086_clean.png",
+        "depth": "depth_maps/image_0086_depth.png",
+        "mask": "segmentation_maps/image_0086_segmentation.png",
+        "caption": "A large, modern bedroom with a large bed sitting on a hardwood floor. The bed is covered with a white sheet and has a gray pillow. The room is decorated in a sleek and minimalist style, with a clean and organized appearance."
+    },
+    {
+        "full_room": "room_images/image_0087.jpg",
+        "empty_room": "clean_rooms/image_0087_clean.png",
+        "depth": "depth_maps/image_0087_depth.png",
+        "mask": "segmentation_maps/image_0087_segmentation.png",
+        "caption": "A modern kitchen with a black table and chairs."
+    },
+    {
+        "full_room": "room_images/image_0088.jpg",
+        "empty_room": "clean_rooms/image_0088_clean.png",
+        "depth": "depth_maps/image_0088_depth.png",
+        "mask": "segmentation_maps/image_0088_segmentation.png",
+        "caption": "A modern, black and white living room with a flat screen TV on the wall."
+    },
+    {
+        "full_room": "room_images/image_0089.jpg",
+        "empty_room": "clean_rooms/image_0089_clean.png",
+        "depth": "depth_maps/image_0089_depth.png",
+        "mask": "segmentation_maps/image_0089_segmentation.png",
+        "caption": "The interior of the room is spacious and modern, featuring a white color scheme and wooden floors. The room is well-furnished with a gray couch, a black chair, and a dining table."
+    },
+    {
+        "full_room": "room_images/image_0090.jpg",
+        "empty_room": "clean_rooms/image_0090_clean.png",
+        "depth": "depth_maps/image_0090_depth.png",
+        "mask": "segmentation_maps/image_0090_segmentation.png",
+        "caption": "The room is a small, multi-purpose space with a wooden floor and a grey color scheme. It has a bench and a bookshelf, which is filled with books. The books are arranged in various sizes and orientations, creating a visually interesting and personalized environment."
+    },
+    {
+        "full_room": "room_images/image_0091.jpg",
+        "empty_room": "clean_rooms/image_0091_clean.png",
+        "depth": "depth_maps/image_0091_depth.png",
+        "mask": "segmentation_maps/image_0091_segmentation.png",
+        "caption": "A white room with a grey ceiling. The room is sparse and features a large white ceiling with a black trim. The ceiling is adorned with a light fixture."
+    },
+    {
+        "full_room": "room_images/image_0092.jpg",
+        "empty_room": "clean_rooms/image_0092_clean.png",
+        "depth": "depth_maps/image_0092_depth.png",
+        "mask": "segmentation_maps/image_0092_segmentation.png",
+        "caption": "A cozy bedroom with a neatly made bed, wooden nightstand, and a wooden headboard."
+    },
+    {
+        "full_room": "room_images/image_0093.jpg",
+        "empty_room": "clean_rooms/image_0093_clean.png",
+        "depth": "depth_maps/image_0093_depth.png",
+        "mask": "segmentation_maps/image_0093_segmentation.png",
+        "caption": "A white bathroom with a window, a toilet, a sink, and a mirror. The mirror is mounted on the wall, and the toilet is positioned underneath it. The sink is located next to the toilet, and the window is situated above it. The bathroom has a modern style, with white fixtures and a marble countertop."
+    },
+    {
+        "full_room": "room_images/image_0094.jpg",
+        "empty_room": "clean_rooms/image_0094_clean.png",
+        "depth": "depth_maps/image_0094_depth.png",
+        "mask": "segmentation_maps/image_0094_segmentation.png",
+        "caption": "A modern open concept living room with a kitchen area. The room features a large dining table with a wooden top and chairs, a couch and a chair arranged in a living area, and a kitchen island with a sink and a stove. The color scheme is predominantly neutral, with white walls and light wood floors, and the furniture is made of natural materials such as wood and leather."
+    },
+    {
+        "full_room": "room_images/image_0095.jpg",
+        "empty_room": "clean_rooms/image_0095_clean.png",
+        "depth": "depth_maps/image_0095_depth.png",
+        "mask": "segmentation_maps/image_0095_segmentation.png",
+        "caption": "A modern kitchen with hardwood floors."
+    },
+    {
+        "full_room": "room_images/image_0096.jpg",
+        "empty_room": "clean_rooms/image_0096_clean.png",
+        "depth": "depth_maps/image_0096_depth.png",
+        "mask": "segmentation_maps/image_0096_segmentation.png",
+        "caption": "The room is a cozy bedroom with a bed that has a white sheet and a pillow. The bed is positioned under a window with a view of a garden outside. The curtains are brown and match the color of the bed's sheet and pillow. The room has a clean and organized appearance, making it a comfortable space for relaxation."
+    },
+    {
+        "full_room": "room_images/image_0097.jpg",
+        "empty_room": "clean_rooms/image_0097_clean.png",
+        "depth": "depth_maps/image_0097_depth.png",
+        "mask": "segmentation_maps/image_0097_segmentation.png",
+        "caption": "A large living room with a gray couch, a white table, and a bookshelf with books. The room has a modern style and is decorated in neutral colors."
+    },
+    {
+        "full_room": "room_images/image_0098.jpg",
+        "empty_room": "clean_rooms/image_0098_clean.png",
+        "depth": "depth_maps/image_0098_depth.png",
+        "mask": "segmentation_maps/image_0098_segmentation.png",
+        "caption": "The interior image is of a large, white room with a modern style. The room has a large window and a wood floor. The room is furnished with a couch, a chair, and a dining table. The couch is made of leather, and the chair is made of wood. The dining table is surrounded by chairs, creating a cozy dining area."
+    },
+    {
+        "full_room": "room_images/image_0099.jpg",
+        "empty_room": "clean_rooms/image_0099_clean.png",
+        "depth": "depth_maps/image_0099_depth.png",
+        "mask": "segmentation_maps/image_0099_segmentation.png",
+        "caption": "A bedroom featuring a bed with white sheets and pillows, a small table with a vase, and a grey blanket on the bed. The room has a modern style with white walls and grey accents."
+    }
+]
