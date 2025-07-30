@@ -6,8 +6,8 @@ import io
 import uuid
 import os
 from fastapi.responses import StreamingResponse
-from fastapi import Form
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Form
 
 from app.pipeline import process_image
 
@@ -20,6 +20,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 @app.post("/generate/")
 async def generate(prompt: str = Form(...), image: UploadFile = File(...)):
