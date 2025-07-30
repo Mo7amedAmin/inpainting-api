@@ -5,7 +5,7 @@ import pandas as pd
 
 # Paths
 json_path = r"M:\college\GraduationProject\room_dataset\updated_Dataset.json"
-base_path = r"M:\college\GraduationProject\room_dataset"  # root folder containing all images
+base_path = r"M:\college\GraduationProject\room_dataset" 
 
 # Load JSON entries
 with open(json_path, "r") as f:

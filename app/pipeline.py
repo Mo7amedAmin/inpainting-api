@@ -13,7 +13,7 @@ from app.segmentation_colors import ade_palette, map_colors_rgb
 
 
 
-############## Load Models ###############
+############# Load Models ##############
 device = "cuda" if torch.cuda.is_available() else "cpu"
 dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 # ControlNet models
@@ -47,11 +47,11 @@ depth_model = AutoModelForDepthEstimation.from_pretrained("LiheYoung/depth-anyth
 
 
 
-############## Our Functions ##############
-def resize_image(image: Image.Image, size=(512, 512)) -> Image.Image:
+############# Our Functions #############
+def resize_image(image: Image.Image, size=(512, 512)):
     return image.resize(size)
 
-def get_segmentation_of_room(image: Image.Image) -> tuple[np.ndarray, Image.Image]: 
+def get_segmentation_of_room(image: Image.Image): 
     with torch.inference_mode():
         inputs = processor(images=image, task_inputs=["semantic"], return_tensors="pt", size={"height": 256, "width": 256})
         inputs = {k: v.to(device) for k, v in inputs.items()}
@@ -75,7 +75,7 @@ def filter_items(colors_list, items_list, items_to_remove):
             filtered_items.append(item)
     return filtered_colors, filtered_items
 
-def get_inpainting_mask(seg_mask: np.ndarray) -> Image.Image:
+def get_inpainting_mask(seg_mask: np.ndarray):
     unique_colors = np.unique(seg_mask.reshape(-1, seg_mask.shape[2]), axis=0)
     unique_colors = [tuple(c) for c in unique_colors]
     segment_items = [map_colors_rgb(c) for c in unique_colors]
@@ -110,7 +110,7 @@ def get_depth_image(image: Image.Image) -> Image.Image:
 
 ############## Main Function ###############
 
-def process_image(image: Image.Image, prompt: str) -> Image.Image:
+def process_image(image: Image.Image, prompt: str):
     image = resize_image(image)
     seg_map, _ = get_segmentation_of_room(image)
     inpaint_mask = get_inpainting_mask(seg_map)

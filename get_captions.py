@@ -22,12 +22,12 @@ def generate_caption(image):
     text = outputs[0]["generated_text"]
     return text[text.find('ASSISTANT:') + len('ASSISTANT:') + 1:]
 
-# Prepare an empty list to store captions
+
 captions = []
 
 # Iterate over the dataset
 for i, example in enumerate(ds):
-    image = example["image"]  # Assuming the dataset has an 'image' column
+    image = example["image"] 
     caption = generate_caption(image)
 
     image_filename = f"image_{i}.jpg"
