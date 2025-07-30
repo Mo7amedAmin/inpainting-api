@@ -1,68 +1,104 @@
-# 🛋️ Interior Image Captioning & Styling Assistant
+# 🏫️ Interior Image Generation & Styling Assistant
 
-This project focuses on generating **detailed textual descriptions** for interior room images using a multimodal vision-language AI model. These descriptions serve as a foundation for downstream applications like interior design assistance, image inpainting, or virtual styling.
+This project focuses on generating realistic interior room images from textual descriptions using a multimodal vision-language pipeline. It combines caption generation, dataset preparation, and model training to build a system capable of interior image synthesis conditioned on user prompts.
 
-## 📌 Project Description
+---
 
-The system analyzes images of rooms and produces **one detailed sentence** per image. Each sentence follows a structured format:
+## 📌 Project Overview
 
-1. Starts with the **room type** (e.g., living room, bedroom)  
-2. Describes the **general interior style** (e.g., modern, rustic)  
-3. Mentions the **colors**, **furniture types**, **fabric materials**, and **arrangement**  
+Initially, the dataset consisted of **room images only** (without any annotations). We extended the dataset by generating:
 
-This structured captioning allows for easy integration into further AI pipelines like design suggestion engines or generative models.
+- ✏️ **Textual descriptions** (captions) for each room image
+- 🏜️ **Furniture-free images** (rooms without any furniture)
+- 🎯 **Segmentation maps**
+- 🌊 **Depth maps**
 
-## 🧠 Model & Approach
+These generated assets were then used to **train a ControlNet model**, enabling it to synthesize interior images based on user prompts and structural guidance.
 
-The project uses a powerful vision-language model from Hugging Face capable of interpreting images and generating natural language descriptions. A custom prompt is used to ensure consistency and detail in the generated outputs.
+---
 
-## 🖼️ Dataset
+## 🧠 Model & Pipeline
 
-The dataset contains images of various interior rooms, covering different styles and setups. Any existing captions or labels in the dataset are ignored, and fresh, structured descriptions are generated using the AI model.
+We built a pipeline that takes:
 
-## 💾 Output Format
+- 🖼️ An **input room image**
+- 📝 A **textual prompt** (detailed description of desired layout or style)
 
-The output consists of:
+And returns:
 
-- A folder of saved images from the dataset  
-- A JSON file containing the image paths and their corresponding generated captions  
+- 🏡 A **synthesized interior image** that reflects the described style, furniture, and arrangement.
 
-These outputs can later be used in:
+This is powered by a **ControlNet-based architecture**, trained on the enhanced dataset we prepared.
 
-- Interior design recommender systems  
-- Generative AI tools like inpainting or image editing  
-- Dataset creation for segmentation or ControlNet training  
+---
+
+## 🧾 Dataset Construction
+
+We used an unlabelled dataset of room images and extended it with:
+
+- **Captions**: Automatically generated using a vision-language model (`llava-hf/llava-1.5-7b-hf`) with a custom prompt.
+- **Empty room generation**: Furniture removed via inpainting techniques.
+- **Segmentation**: Generated using semantic segmentation models.
+- **Depth maps**: Estimated using monocular depth prediction models.
+
+These outputs were saved in JSON and image format for reuse.
+
+---
+
 
 ## 🚀 Deployment
 
-The system has been successfully deployed on an **Azure Virtual Machine (VM)** for real-time usage and scalability testing.
+The model was deployed on an **Azure Virtual Machine** for scalable, real-time inference:
 
-This deployment setup enables:
+- ✅ API hosted via **FastAPI**
+- 🧠 ControlNet pipeline served for prompt-to-image generation
+- 🔗 Accessible remotely for frontend integration
 
-- Hosting the pipeline as a **FastAPI server**  
-- Remote access to the model for inference  
-- Scalability for future integration into frontend tools or mobile apps  
+---
 
-Azure provides GPU-based resources to support image-based inference efficiently.
+### 🐳 Run with Docker (Azure VM or Local)
 
-## ✅ Use Cases
+1. **Clone the repo**:
+```bash
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+```
 
-- AI-assisted room styling  
-- Image captioning for interior design apps  
-- Dataset generation for vision-language models  
-- Augmented Reality / Virtual Reality room simulation  
-- Content generation for real estate platforms  
+2. **Build the Docker image**:
+```bash
+docker build -t interior-ai-app .
+```
+
+3. **Run the Docker container**:
+```bash
+docker run -d -p 8000:8000 interior-ai-app
+```
+
+4. **Access the API**:
+Open your browser or use a tool like Postman to test:
+```
+http://<your-vm-ip>:8000/docs
+```
+
+This starts the FastAPI server and serves the AI pipeline on your VM.
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- Vision-Language AI models  
-- Hugging Face Transformers  
-- Python  
-- FastAPI (for API deployment)  
-- Azure VM (for production hosting)  
-- Kaggle (for initial prototyping and testing)  
+- **Python**
+- **Hugging Face Transformers**
+- **Diffusers + ControlNet**
+- **FastAPI** for deployment
+- **Azure VM** for hosting
+- **Kaggle** for prototyping & caption generation
 
-## 🙋 Author
+---
 
-Developed by **Mohamed Ali** and **Ahmed Elsharkay** as part of a graduation project focused on AI-driven interior styling and smart home visualization tools.
+## 🙋 Authors
+
+Developed by **Mohamed Ali** and **Ahmed Elsharkay** as part of a graduation project focused on AI-driven interior design, visualization, and generative modeling.
+
+---
+
 
