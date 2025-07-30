@@ -60,7 +60,7 @@ The model was deployed on an **Azure Virtual Machine** for scalable, real-time i
 
 1. **Clone the repo**:
 ```bash
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/Mo7amedAmin/interior-styling-ai
 cd your-repo-name
 ```
 
