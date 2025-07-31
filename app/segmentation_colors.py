@@ -152,18 +152,18 @@ COLOR_MAPPING_ = {
     "#5C00FF": "flag",
 }
 
-def to_rgb(color: str) -> tuple:
+def to_rgb(color: str):
     return tuple(int(color[i:i+2], 16) for i in (1, 3, 5))
 
 COLOR_MAPPING_RGB = {to_rgb(k): v for k, v in COLOR_MAPPING_.items()}
 
 
-def map_colors_rgb(color: tuple) -> str:
+def map_colors_rgb(color: tuple):
     return COLOR_MAPPING_RGB[color]
 
 
 
-def ade_palette() -> list[list[int]]:
+def ade_palette():
     """ADE20K palette that maps each class to RGB values."""
     return [[120, 120, 120], [180, 120, 120], [6, 230, 230], [80, 50, 50],
             [4, 200, 3], [120, 120, 80], [140, 140, 140], [204, 5, 255],
