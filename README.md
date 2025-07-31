@@ -4,16 +4,20 @@ This project focuses on generating realistic interior room images from textual d
 
 ---
 
-## 📌 Project Overview
+## 🧾 Dataset Construction & Model Training Attempts
 
-Initially, the dataset consisted of **room images only** (without any annotations). We extended the dataset by generating:
+We started with an **unlabelled dataset of interior room images** and extended it using AI-generated annotations to support training and inference:
 
-- ✏️ **Textual descriptions** (captions) for each room image
-- 🏜️ **Furniture-free images** (rooms without any furniture)
-- 🎯 **Segmentation maps**
-- 🌊 **Depth maps**
+- ✏️ **Captions**: Automatically generated using a vision-language model (`llava-hf/llava-1.5-7b-hf`) with custom prompts to describe each room image.
+- 🏜️ **Empty room images**: Created by removing furniture using inpainting techniques.
+- 🎯 **Segmentation maps**: Generated using semantic segmentation models to detect and label room elements (walls, floor, furniture, etc.).
+- 🌊 **Depth maps**: Estimated using monocular depth prediction models to capture spatial layout and depth cues.
 
-These generated assets were then used to **train a ControlNet model**, enabling it to synthesize interior images based on user prompts and structural guidance.
+All outputs were stored in structured folders and JSON metadata for reuse during training and deployment.
+
+🔧 After constructing the dataset, we attempted to **fine-tune ControlNet models** (segmentation- and depth-based) using the generated data. Unfortunately, we encountered **hardware limitations** — particularly GPU memory constraints — that made full-scale training infeasible in our local/academic environment.
+
+As a result, we used **pretrained ControlNet models**, leveraging the generated segmentation and depth maps to guide image generation during inference. The results were promising and demonstrated the viability of the pipeline in real-world applications.
 
 ---
 
@@ -29,19 +33,6 @@ And returns:
 - 🏡 A **synthesized interior image** that reflects the described style, furniture, and arrangement.
 
 This is powered by a **ControlNet-based architecture**, trained on the enhanced dataset we prepared.
-
----
-
-## 🧾 Dataset Construction
-
-We used an unlabelled dataset of room images and extended it with:
-
-- **Captions**: Automatically generated using a vision-language model (`llava-hf/llava-1.5-7b-hf`) with a custom prompt.
-- **Empty room generation**: Furniture removed via inpainting techniques.
-- **Segmentation**: Generated using semantic segmentation models.
-- **Depth maps**: Estimated using monocular depth prediction models.
-
-These outputs were saved in JSON and image format for reuse.
 
 ---
 
@@ -97,7 +88,7 @@ This starts the FastAPI server and serves the AI pipeline on your VM.
 
 ## 🙋 Authors
 
-Developed by **Mohamed Ali** and **Ahmed Elsharkay** as part of a graduation project focused on AI-driven interior design, visualization, and generative modeling.
+Developed by **Mohamed Ali** and **Ahmed Elsharkawy** as part of a graduation project focused on AI-driven interior design, visualization, and generative modeling.
 
 ---
 
